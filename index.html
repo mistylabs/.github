@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Misty Manifesto</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo-container">
+          <img src="./assets/misty.png" alt="Misty mascot" class="logo" />
+          <span class="logo-text">Misty</span>
+        </div>
+        <p class="subtitle">A gentle guardian for your thoughts.</p>
+      </header>
+
+      <section>
+        <h2>A manifesto</h2>
+
+        <p class="manifesto-intro">
+          This is not another editor. We love the tools you already use. Misty
+          doesn't replace them. It walks beside them.
+        </p>
+
+        <p>
+          Misty is a secure gateway. It helps you sync, manage, share, and
+          publish your personal notes, journals, and ideas. Without becoming the
+          place where they live.
+        </p>
+
+        <p>Your thoughts never become a product. They remain yours, always.</p>
+      </section>
+
+      <section>
+        <h2>What Misty does</h2>
+
+        <ul>
+          <li>
+            Sync your notes across all your devices, securely and privately
+          </li>
+          <li>
+            Keep your journals, diaries, and vaults organized in one place
+          </li>
+          <li>
+            Share thoughts with people you trust, but only when you want to
+          </li>
+          <li>Publish selected notes as blogs, completely on your terms</li>
+          <li>Push your writing to dev.to or other platforms with one click</li>
+        </ul>
+
+        <p>All of this, without ever claiming ownership of your words.</p>
+      </section>
+
+      <section>
+        <h2>How it works</h2>
+
+        <ul>
+          <li>
+            Everything stays on your device first. Your notes live with you, not
+            on our servers.
+          </li>
+          <li>
+            We use zero-knowledge encryption. We literally can't read what you
+            write, even if we wanted to.
+          </li>
+          <li>
+            Everything is private by default. You decide what to share, and
+            when.
+          </li>
+          <li>Publish only when you're ready. No pressure, no deadlines.</li>
+          <li>Works with the tools and workflows you already love.</li>
+        </ul>
+
+        <p>
+          Misty doesn't cage your thinking inside a platform. It follows your
+          ideas wherever they already live.
+        </p>
+      </section>
+
+      <section>
+        <span class="status-badge">In development</span>
+        <h2>Where we are</h2>
+        <p>
+          Misty is in active development right now. This is a private project,
+          built slowly and carefully.
+        </p>
+        <p>
+          We're taking our time because getting this right matters more than
+          getting it fast.
+        </p>
+      </section>
+
+      <section>
+        <h2>Stay in touch</h2>
+        <p>
+          Want to know when Misty is ready? Drop your email below. We'll send
+          you updates when there's something real to share. Nothing more.
+        </p>
+
+        <form
+          class="email-form"
+          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScwquqXAnxtEj_DICCUN5ljweg0tkfQOOd0MEE5kH5BO0qzDg/formResponse"
+          method="POST"
+          target="hidden_iframe"
+          onsubmit="submitted = true"
+        >
+          <div class="form-group">
+            <input
+              type="email"
+              name="entry.1657589051"
+              placeholder="your@email.com"
+              required
+            />
+            <button type="submit">Get updates</button>
+          </div>
+        </form>
+
+        <iframe
+          name="hidden_iframe"
+          style="display: none"
+          onload="
+            if (submitted) {
+              document.querySelector('.email-form').innerHTML =
+                'Thank you. Misty will remember you.';
+            }
+          "
+        ></iframe>
+
+        <script>
+          let submitted = false;
+        </script>
+      </section>
+
+      <section>
+        <h2>About</h2>
+        <p>Misty is a project by <span class="accent">P8labs</span>.</p>
+
+        <div class="about-note">
+          <p>
+            I'm building Misty because I believe deeply in freedom. The freedom
+            to use the tools you already love. The freedom to keep your thoughts
+            truly private. The freedom to share and publish only when you feel
+            ready.
+          </p>
+          <p>
+            I want a different kind of future for personal knowledge. One where
+            tools protect your thinking instead of harvesting it. Where your
+            ideas never become someone else's product. Where you stay in
+            control, always.
+          </p>
+          <p>Misty exists to serve you, not to own you.</p>
+        </div>
+      </section>
+    </div>
+
+    <footer>© 2026 Misty, a P8labs product.</footer>
+  </body>
+</html>
